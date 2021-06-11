@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static("public"));
 
 app.get("/", (res, req) => {
-  res.send();
+  res.send("");
 });
 
 module.exports = app;
