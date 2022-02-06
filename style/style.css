@@ -49,6 +49,11 @@ h1 {
   justify-content: space-around;
   flex-direction: row;
 }
+.container--flex-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .container--grid-3 {
   display: grid;
   grid-template-columns: 30% 30% 40%;
@@ -122,10 +127,6 @@ h1 {
 .slider {
   margin: 5vw;
   text-align: center;
-  postion: relative;
-}
-.slider__img {
-  max-width: 90%;
 }
 
 .services {
@@ -154,6 +155,7 @@ h1 {
 .inspiration {
   text-align: justify;
   padding-bottom: 2vw;
+  margin-bottom: 5rem;
 }
 .inspiration__img-container {
   position: relative;
